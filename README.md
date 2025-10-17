@@ -4,25 +4,25 @@ A demo project built with **Nest.js**, **TypeORM**, and **PostgreSQL** for manag
 ## How to use
 Copy the example environment file:
 ```bash
-$ cp .env.example.rc .env
+cp .env.example.rc .env
 ```
 Open the .env file and replace placeholder values with your actual configuration
 ```bash
-$ yarn install
-$ yarn build
+yarn install
+yarn build
 ```
 
 Run existing migrations
 ```bash
-$ yarn migration:run
+yarn migration:run
 ```
 
 Run the application
 ```bash
-$ yarn start
+yarn start
 ```
 
 ### How to generate migration
 ```bash
-$ yarn migration:generate ./src/migrations/<migration-name> 
+yarn migration:generate ./src/migrations/<migration-name> 
 ```
